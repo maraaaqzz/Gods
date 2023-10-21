@@ -60,10 +60,9 @@ function Append(name, index) {
 function Fight() {
     var god1 = document.getElementById("first_selection").innerHTML;
     var god2 = document.getElementById("secound_selection").innerHTML;
-    if (god1 != "Alege zeu" & god2 != "Alege zeu" && god1 != god2) {
+    if (god1 != "Choose god" & god2 != "Choose god" && god1 != god2) {
         var int = god1 + '_' + god2;
         window.location.href = 'FightPage.html?zei=' + int;
     }
-    else console.log("nu");
 
 }

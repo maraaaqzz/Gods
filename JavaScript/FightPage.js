@@ -73,9 +73,9 @@ $(document).ready(function () {
             else ind = 2;
 
             if (ind != 2)
-                $("#scor").append(words[ind] + " castiga");
+                $("#scor").append(words[ind] + " wins");
             else
-                $("#scor").append("Remiza");
+                $("#scor").append("tie");
         }
     };
 

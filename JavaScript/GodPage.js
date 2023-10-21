@@ -20,11 +20,11 @@ $(document).ready(function () {
 
             var Mit;
             if (JSONData[index].mitologie == "greek")
-                Mit = "Mitologia greceasca";
+                Mit = "Greek mythology";
             else if (JSONData[index].mitologie == "norse")
-                Mit = "Mitologia nordica";
+                Mit = "Norse mythology";
             else if (JSONData[index].mitologie == "egyptian")
-                Mit = "Mitologia egiptului";
+                Mit = "Egyptian mythology";
 
             $("#Title").append(Mit);
             $("#God").append('<img src="Images/gods/' + zeu + '.jpg" class="SplashArt">' +
